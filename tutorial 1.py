@@ -9,7 +9,7 @@ string_type1 = "Python"
 string_type2 = "In"
 string_type3 = "Bits"
 
-x = 10
+x = 1
 y = 20
 
 # print integer variable
@@ -27,5 +27,6 @@ print(string_type1 , string_type2 , string_type3, sep = " ")
 # print string variables - concating strings
 print("Hello" + "   " + "World")
 
-# print using format method
-print("{0} * {1} = {2}".format(x,y,x*y))
+for x in range(10):
+    # print using format method
+    print("{0} * {1} = {2}".format(x,y,x*y))
