@@ -21,7 +21,7 @@ print("b = ",float_type)
 # print variables with precision
 print("a = %5d \nb = %3.2f"%(int_type,float_type))
 
-# print string variables - using spe 
+# print string variables - using sep 
 print(string_type1 , string_type2 , string_type3, sep = " ")
 
 # print string variables - concating strings
