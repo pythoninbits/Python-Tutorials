@@ -3,7 +3,7 @@
 
 
 int_type1 = 123
-int_type2= 777
+int_type2 = 777
 
 # print integer variable
 print(int_type)
